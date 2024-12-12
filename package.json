@@ -1,0 +1,19 @@
+{
+  "name": "project-icons",
+  "version": "1.0.0",
+  "description": "Adds project icons to the Icon Block",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "build:icons": "node iconBuilder.js",
+    "build:bundle": "webpack", 
+    "build": "npm run build:icons && npm run build:bundle"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.21.0",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
